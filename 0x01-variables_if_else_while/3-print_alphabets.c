@@ -1,4 +1,3 @@
-    
 #include <stdio.h>
 /**
  * main - Entry point
@@ -7,19 +6,19 @@
  */
 int main(void)
 {
-  char c;
-  char ch = '\n';
+	char c;
+	char ch = '\n';
 
-  for (c = 'a'; c <= 'z'; ++c)
-    {
-      putchar(c);
-    }
-  for (c = 'A'; c <= 'Z'; ++c)
-    {
-      putchar(c);
-    }
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+		putchar(c);
+	}
+	for (c = 'A'; c <= 'Z'; ++c)
+	{
+		putchar(c);
+	}
 
-  putchar(ch);
+	putchar(ch);
 
-  return (0);
+	return (0);
 }
