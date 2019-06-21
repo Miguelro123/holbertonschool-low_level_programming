@@ -9,6 +9,7 @@
 int main(void)
 {
 	char c;
+	char d;
 
 	for (c = '0' ; c <= '9' ; c++)
 	{
@@ -17,7 +18,7 @@ int main(void)
 
 	}
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (d = 'a' ; d <= 'z' ; d++)
 	{
 
 		putchar(c);
