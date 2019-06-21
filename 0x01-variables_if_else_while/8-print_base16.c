@@ -7,7 +7,6 @@
 int main(void)
 {
 	char c;
-	char nl = '\n';
 
 	for (c = '0'; c <= '9'; c++)
 	{
@@ -21,4 +20,6 @@ int main(void)
 
 		putchar(c);
 	}
+	putchar("\n");
+	return (0);
 }
