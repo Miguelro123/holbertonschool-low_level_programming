@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
+ * main - more headers goes there
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
     {
       putchar(i);
     }
-  for(i = 65 ; i < 91 ; i++)
+  for (i = 65 ; i < 91 ; i++)
     {
       putchar(i);
     }
