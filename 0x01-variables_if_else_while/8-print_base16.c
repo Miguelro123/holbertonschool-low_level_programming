@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -18,8 +20,8 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 
-		putchar(c);
+		putcqqqqqqqqqhar(c);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
