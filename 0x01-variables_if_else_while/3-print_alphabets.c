@@ -1,22 +1,25 @@
+    
 #include <stdio.h>
-
 /**
- * main - more headers goes there
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  int i;
+  char c;
+  char ch = '\n';
 
-  for (i = 97 ; i < 123 ; i++)
+  for (c = 'a'; c <= 'z'; ++c)
     {
-      putchar(i);
+      putchar(c);
     }
-  for (i = 65 ; i < 91 ; i++)
+  for (c = 'A'; c <= 'Z'; ++c)
     {
-      putchar(i);
+      putchar(c);
     }
-  putchar('\n');
+
+  putchar(ch);
+
   return (0);
 }
