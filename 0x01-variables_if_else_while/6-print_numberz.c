@@ -6,15 +6,14 @@
  */
 int main(void)
 {
-	char c;
-	char nl = '\n';
+	int c;
+	int nl = '\n';
 
-	for (c = 'a'; c <= 'z'; ++c)
+	for (c = '0'; c <= '9'; ++c)
+
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
+		putchar(c + '0');
+
 	}
 
 	putchar(nl);
