@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  *
@@ -6,17 +6,18 @@
  */
 int main(void)
 {
-	int n, b;
+	int x, y, z;
 
-	for (n = '0'; n <= '9'; n++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		for (b = '1'; b <= '9'; b++)
+		for (y = x + 1; y <= '9'; y++)
 		{
-			if (n < b && n != b)
+			for (z = y + 1; z <= '9'; z++)
 			{
-				putchar(n);
-				putchar(b);
-				if (n != '8')
+				putchar(x);
+				putchar(y);
+				putchar(z);
+				if (!(y == '8' && x == '7' && z == '9'))
 				{
 					putchar(',');
 					putchar(' ');
@@ -24,8 +25,6 @@ int main(void)
 			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
