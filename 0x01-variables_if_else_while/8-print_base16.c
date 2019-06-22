@@ -10,22 +10,18 @@ int main(void)
 {
 	char c;
 	char d;
+        for (c = '0' ; c <= '9' ; c++)
+        {
 
-	for (c = '0' ; c = '9' ; c++)
+                putchar(c);
 
-	{
+        }
 
-		putchar(c);
+        for (d = 'a' ; d <= 'z' ; d++)
+        {
 
-	}
-
-	for (d = 'a' ; d = 'z' ; d++)
-
-	{
-
-		putchar(d);
-	}
-
+                putchar(d);
+        }
 	putchar('\n');
 	return (0);
 }
