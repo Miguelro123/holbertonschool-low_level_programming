@@ -17,18 +17,18 @@ int main(void)
 			{
 				for (d = '0'; d <= '9'; d++)
 				{
-					if (c >= a && ((d > b && c == a) || c != a))
+					if ((a != c) && (c > a) || (b != d) && (d > b))
 					{
 						putchar(a);
 						putchar(b);
 						putchar(' ');
 						putchar(c);
 						putchar(d);
-						if (a != '9' || b != '8' || c != '9' || d != '9')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (a != '9' || b != '8' || c != '9' || d != '9')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
