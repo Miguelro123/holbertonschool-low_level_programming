@@ -1,8 +1,10 @@
-#include "holberton.h"
+ #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: Always 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
 {
@@ -11,7 +13,7 @@ int main(void)
 
 	for (z = 0; z < 9; z++)
 	{
-		_putchar(holberton[z]);
+		_putchar(y[z]);
 	}
 	_putchar('\n');
 	return (0);
