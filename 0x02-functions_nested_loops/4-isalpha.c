@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * _isalpha - alphabetic character.
+ * @c: Variable type int
  * Return: Always 0.
  */
 int _isalpha(int c)
@@ -14,5 +14,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	return ('\n');
 }
