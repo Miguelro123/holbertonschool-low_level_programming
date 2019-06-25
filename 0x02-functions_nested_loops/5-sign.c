@@ -4,14 +4,21 @@
  *
  * Return: Always 0.
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		return (0);
+		_putchar('-');
+		return (-1);
 	}
 }
