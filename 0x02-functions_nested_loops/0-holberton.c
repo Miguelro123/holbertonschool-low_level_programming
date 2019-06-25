@@ -7,7 +7,6 @@
 int main(void)
 {
 	char y[] = "Holberton";
-
 	int z;
 
 	for (z = 0; z < 9; z++)
