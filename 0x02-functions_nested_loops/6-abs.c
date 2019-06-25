@@ -1,12 +1,17 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _abs - the absolute value of an integer.
+ * @n: variable type int.
+ * Return: absolute value.
  */
 int _abs(int n)
 {
 	if (n < 0)
+	{
 		return (n * -1);
-	return (n);
+	}
+	else
+	{
+		return (n);
+	}
 }
