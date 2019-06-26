@@ -1,10 +1,15 @@
-#include "holberton.h"
+# include "holberton.h"
+
 /**
- * main - check the code for Holberton School students.
+ * add - get the last digit
  *
- * Return: Always 0.
+ * @a: int type
+ * @b: int type
+ *
+ * Return: sum of two intergers
  */
-int add(int a, int b);
+
+int add(int a, int b)
 {
 	return (a + b);
 }
