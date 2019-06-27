@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_line - draw a straight line
- * @n: number of times line is printed
- * Description: Can only use _putchar to print
+ * print_line - draws a straight line.
+ * @n: Type int
  */
 void print_line(int n)
 {
