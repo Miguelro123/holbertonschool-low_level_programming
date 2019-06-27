@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - print backslash diagonally
+ * print_diagonal - draws a diagonal line on the terminal.
  * @n: int type
  *
- * Return: prints lines and space to the value of n
+ * Return: 0
  */
 
 void print_diagonal(int n)
