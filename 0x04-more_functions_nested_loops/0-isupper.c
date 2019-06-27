@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _isupper - function that checks for uppercase characters
- * @c: int type number
+ * _isupper - function that checks for uppercase character.
+ * @c: Type int
  * Return: 1 if uppercase, else 0
  */
 int _isupper(int c)
