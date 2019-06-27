@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * print_square - print hashes in pattern of size
- * @size: int type
+ * print_square - prints a square, followed by a new line.
+ * @size: Type int
  *
- * Return: prints hashes in squares
+ * Return: 0
  */
 
 void print_square(int size)
