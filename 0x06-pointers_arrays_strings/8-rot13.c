@@ -8,8 +8,8 @@ char *rot13(char *s)
 {
 	int x, z;
 
-	char *s1 = "abcdefghijklmABCDEFGHIJKLM";
-	char *s2 = "nopqrstuvwxyzNOPQRSTUVWXYZ";
+	char s1 = "abcdefghijklmABCDEFGHIJKLM";
+	char s2 = "nopqrstuvwxyzNOPQRSTUVWXYZ";
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
@@ -18,11 +18,9 @@ char *rot13(char *s)
 			if (s[x] == s1[z])
 			{
 				s[x] = s2[z];
+				break;
 			}
-			else if (s[x] == s2[z])
-			{
-				s[x] = s1[z];
-			}
+			
 		}
 	}
 	return (s);
