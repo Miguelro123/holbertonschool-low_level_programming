@@ -6,33 +6,37 @@
  */
 char *cap_string(char *s)
 {
-	int i;
+	int wrd;
 
-	if (s[0] >= 'a' && s[0] <= 'z')
+	for (wrd = 0 ; s[wrd] != '\0' ; wrd++)
 	{
-		s[0] -= 32;
-
-		for (i = 0; s[i] != '\0'; i++)
+		if (s[wrd] >= 'a' && s[wrd] <= 'z')
 		{
-			switch (s[i])
+			if (wrd == 0)
 			{
-			case ',':
-			case ';':
-			case '.':
-			case '!':
-			case '?':
-			case '"':
-			case '(':
-			case ')':
-			case '{':
-			case '}':
-			case ' ':
-			case '\n':
-			case '\t':
-
-				if (s[i + 1] > 96 && s[i + 1] < 123)
-					s[i + 1] -= 32;
+				s[wrd] = s[wrd] - 32;
+			}
+			else
+			{
+				switch (s[wrd - 1])
+				{
+					case 9:
+					case 10:
+					case 32:
+					case 44:
+					case 59:
+					case 46:
+					case 33:
+					case 63:
+					case 34:
+					case 40:
+					case 41:
+					case 123:
+					case 125:
+						s[wrd] = s[wrd] - 32;
+				}
 			}
 		}
-		return (s);
 	}
+	return (s);
+}
