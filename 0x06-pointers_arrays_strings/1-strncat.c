@@ -1,12 +1,11 @@
 #include "holberton.h"
-
 /**
- * _strncat - function that concatenates two strings using at most `n` bytes
+ * _strncat - concatenate two strings.
  * @dest: Type char
  * @src: Type char
- * @n: integer
+ * @n: Type int
  *
- * Return: pointer to the resulting string dest
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
