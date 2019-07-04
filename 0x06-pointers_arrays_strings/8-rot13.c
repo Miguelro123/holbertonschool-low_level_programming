@@ -8,8 +8,8 @@ char *rot13(char *s)
 {
 	int x, z;
 
-	char s1 = "abcdefghijklmABCDEFGHIJKLM";
-	char s2 = "nopqrstuvwxyzNOPQRSTUVWXYZ";
+	char *s1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *s2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
@@ -20,7 +20,7 @@ char *rot13(char *s)
 				s[x] = s2[z];
 				break;
 			}
-			
+
 		}
 	}
 	return (s);
