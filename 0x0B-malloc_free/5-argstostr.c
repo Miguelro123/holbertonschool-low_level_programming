@@ -1,38 +1,50 @@
 #include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * argstostr - concatenate all arguments
+ * *argstostr - convert arguments on command line to strings
  * @ac: int type
- * @av: char type
- * Return: NULL if fail, else return pointer to new string
+ * @av: pointer to array
+ * Return: arguments as strings
  */
 
 char *argstostr(int ac, char **av)
 {
-	int i = 0;
-	int j, x, y;
-	char *p;
+	int size, count, count1, count2 = 0;
+	char *ptr;
 
 	if (ac == 0 || av == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0, x = 0, y = 0; x < ac; i++)
+
+	for (count = 0; count < ac; count++)
 	{
-		if (av[x][y] == '\0')
+		for (count1 = 0; av[count][count1] != '\0'; count1++)
 		{
-			x++;
+			size += 1;
 		}
+		size += 1;
 	}
-	p = malloc(i * sizeof(char));
-	if (p == NULL)
+	size += 1;
+
+	ptr = malloc(sizeof(char) * size);
+	if (ptr == NULL)
 	{
+		free(ptr);
 		return (NULL);
 	}
-	for (i = 0, j = 0; i < ac; i++, j++)
+	for (count = 0; count < ac; count++)
 	{
-		p[j] = av[i][j];
+		for (count1 = 0; av[count][count1] != '\0'; count1++)
+		{
+			ptr[count2] = av[count][count1];
+			count2++;
+		}
+		ptr[count2] = '\n';
+		count2++;
 	}
-
-	return (p);
+	ptr[count2] = '\0';
+	return (ptr);
 }
