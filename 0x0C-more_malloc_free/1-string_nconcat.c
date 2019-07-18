@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  * *string_nconcat - concatenates two strings
- * @s1 char type
- * @s2 char type
- * @n unsigned int type
+ * @s1: char type
+ * @s2: char type
+ * @n: unsigned int type
  * Return: pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
