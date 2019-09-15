@@ -8,12 +8,11 @@
 
 size_t dlistint_len(const dlistint_t *h)
 {
-	const dlistint_t *y = h;
 	size_t z;
 
-	for (z = 0; y; z++)
+	for (z = 0; h != NULL; z++)
 	{
-		y = y->next;
+		h = h->next;
 	}
 	return (z);
 }
