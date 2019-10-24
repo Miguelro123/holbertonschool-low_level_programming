@@ -1,17 +1,16 @@
-#include <stdio.h>
 #include "function_pointers.h"
 /**
- * int_index - function to return index of compared int
- * @array: pointer to array of int type
- * @size: size of array of int type
- * @cmp: pointer to function of int type
- * Return: return index number of comp int
+ * int_index - Function that searches for an integer
+ * @array: Pointer to array of int type
+ * @size: Size of array of int type
+ * @cmp: Pointer to function of int type
+ * Return: Return index number of comp int
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int z;
 
-	if (array == NULL || !cmp || size <= 0)
+	if (array == NULL || cmp == NULL || size <= 0)
 	{
 		return (-1);
 	}
