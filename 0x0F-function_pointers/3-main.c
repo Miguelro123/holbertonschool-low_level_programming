@@ -1,10 +1,8 @@
-#include <stdio.h>
 #include "3-calc.h"
-#include <stdlib.h>
 
 /**
  * main - Entry point of program
- * @argc: size of array argv and number of command line arguments
+ * @argc: Size of array argv and number of command line arguments
  * @argv: An array of size argc
  * Return: Always successful
  */

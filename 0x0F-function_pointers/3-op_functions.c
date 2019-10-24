@@ -1,13 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "3-calc.h"
 
 /**
- * op_add - add two numbers
- * @a: first number to use for operation
- * @b: second number to use for operation
+ * op_add - Add two numbers
+ * @a: First number to use for operation
+ * @b: Second number to use for operation
  *
- * Return: result of sum
+ * Return: Result of sum
  */
 int op_add(int a, int b)
 {
@@ -15,11 +13,11 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - subtract two numbers
- * @a: first number to use for operation
- * @b: second number to use for operation
+ * op_sub - Subtract two numbers
+ * @a: First number to use for operation
+ * @b: Second number to use for operation
  *
- * Return: result of subtraction
+ * Return: Result of subtraction
  */
 int op_sub(int a, int b)
 {
@@ -27,11 +25,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multiply two numbers
- * @a: first number to use for operation
- * @b: second number to use for operation
+ * op_mul - Multiply two numbers
+ * @a: First number to use for operation
+ * @b: Second number to use for operation
  *
- * Return: result of multiplication
+ * Return: Result of multiplication
  */
 int op_mul(int a, int b)
 {
@@ -39,11 +37,11 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - divide two numbers
- * @a: first number to use for operation
- * @b: second number to use for operation
+ * op_div - Divide two numbers
+ * @a: First number to use for operation
+ * @b: Second number to use for operation
  *
- * Return: result of division
+ * Return: Result of division
  */
 int op_div(int a, int b)
 {
@@ -56,11 +54,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - find the remainder of division of two numbers
- * @a: first number to use for operation
- * @b: second number to use for operation
+ * op_mod - Find the remainder of division of two numbers
+ * @a: First number to use for operation
+ * @b: Second number to use for operation
  *
- * Return: remainder of division
+ * Return: Remainder of division
  */
 int op_mod(int a, int b)
 {

@@ -1,11 +1,10 @@
 #include "3-calc.h"
-#include <stdio.h>
 
 /**
- * get_op_func - function to select operator
+ * get_op_func - Function to select operator
  *
- * @s: chat type
- * Return: always successful
+ * @s: Chat type
+ * Return: Always successful
  */
 
 int (*get_op_func(char *s))(int, int)
