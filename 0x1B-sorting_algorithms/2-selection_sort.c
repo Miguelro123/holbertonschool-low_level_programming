@@ -12,15 +12,15 @@ void selection_sort(int *array, size_t size)
 	if (size > 0 && array != NULL)
 	{
 		for (i = 0 ; i < size - 1 ; i++)
-			{
-				minimo = i;
-				for (j = i + 1 ; j < size ; j++)
-					if (array[minimo] > array[j])
-						minimo = j;
-				swap = array[minimo];
-				array[minimo] = array[i];
-				array[i] = swap;
-				print_array(array, size);
-			}
+		{
+			minimo = i;
+			for (j = i + 1 ; j < size ; j++)
+				if (array[minimo] > array[j])
+					minimo = j;
+			swap = array[minimo];
+			array[minimo] = array[i];
+			array[i] = swap;
+			print_array(array, size);
+		}
 	}
 }
