@@ -26,6 +26,9 @@ struct binary_tree_s
 #include <string.h>
 
 typedef struct binary_tree_s binary_tree_t;
+typedef struct binary_tree_s bst_t;
+typedef struct binary_tree_s avl_t;
+typedef struct binary_tree_s heap_t;
 
 void binary_tree_print(const binary_tree_t *);
 
