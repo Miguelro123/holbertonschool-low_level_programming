@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stddef.h>
+#include <string.h>
+#include <stdbool.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
