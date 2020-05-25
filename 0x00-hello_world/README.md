@@ -52,7 +52,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - A `README.md` file, at the root of the folder of this project, containing a description of the project
 - There should be no errors and no warnings during compilation
 - You are not allowed to use `system`
-- Your code should use the `Betty` style. It will be checked using betty-style.pl and betty-doc.pl
+- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 
 ### Shell Scripts
 
@@ -68,8 +68,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 To run the Betty linter just with command `betty <filename>`:
 
-- Go to the Betty repository
-- Clone the repo to your local machine
+- Go to the [Betty](https://github.com/holbertonschool/Betty) repository
+- Clone the [repo](https://github.com/holbertonschool/Betty) to your local machine
 - `cd` into the Betty directory
 - Install the linter with `sudo ./install.sh`
 - `emacs` or `vi` a new file called `betty`, and copy the script below:
@@ -105,9 +105,16 @@ You can now type `betty <filename>` to run the Betty linter!
 **It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
 
 ## Quiz questions
-Show
+
+<details>
+<summary>Show</summary>
+
+<details>
 
 ## Tasks
+
+<details>
+<summary>Show</summary>
 
 ### 0. Preprocessor
 
@@ -419,3 +426,11 @@ Repo:
 GitHub repository: holbertonschool-low_level_programming
 Directory: 0x00-hello_world
 File: 101-quote.c
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
