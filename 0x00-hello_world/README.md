@@ -411,8 +411,6 @@ julien@ubuntu:~/c/0x00$
 * Directory: `0x00-hello_world`
 * File: `6-size.c`
 
-### [7. What happens when you type gcc main.c]()
-
 Write a blog post that explains all the steps of compilation. Use command lines and examples to illustrate.
 
 - Use `gcc` as the compiler
