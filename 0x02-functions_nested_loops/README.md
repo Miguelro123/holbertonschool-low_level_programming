@@ -46,3 +46,27 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## More Info
 
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
+
+## Quiz questions
+
+<details>
+<summary>Show</summary>
+
+
+
+</details>
+
+## Tasks
+
+<details>
+<summary>Show</summary>
+  
+
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
