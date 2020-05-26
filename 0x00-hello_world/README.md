@@ -149,8 +149,8 @@ Which command can be used to compile a C source file?
 - [x] <pre>/* Comment */ </pre>
 - [ ] <pre>// Comment </pre>
 - [ ] <pre>/*
-            Comment
-            */ <pre>
+        Comment
+        */</pre>
 - [x] <pre>/*
             * Comment
             */ </pre>
