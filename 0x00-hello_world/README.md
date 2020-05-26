@@ -172,7 +172,7 @@ What are the different steps to form an executable file from C source code
 ## Tasks
 
 <details>
-<summary>Show</summary>
+<summary>View Contents</summary>
 
 ### [0. Preprocessor](./0-preprocessor)
 
