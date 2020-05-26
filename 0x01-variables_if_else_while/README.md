@@ -223,6 +223,9 @@ do while (a < b)
 
 ## Tasks
 
+<details>
+<summary>View Contents</summary>
+
 ### [0. Positive anything is better than negative nothing](./0-positive_or_negative.c)
 
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
@@ -319,9 +322,9 @@ julien@ubuntu:~/0x01$
 
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar twice in your code
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` twice in your code
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 2-print_alphabet.c -o 2-print_alphabet
 julien@ubuntu:~/0x01$ ./2-print_alphabet 
@@ -331,17 +334,17 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 2-print_alphabet.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `2-print_alphabet.c`
 
 ### [3. alphABET](./3-print_alphabets.c)
 
 Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar three times in your code
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` three times in your code
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 3-print_alphabets.c -o 3-print_alphabets
 julien@ubuntu:~/0x01$ ./3-print_alphabets | cat -e
@@ -351,18 +354,18 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 3-print_alphabets.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `3-print_alphabets.c`
 
 ### [4. When I was having that alphabet soup, I never thought that it would pay off](./4-print_alphabt.c)
 
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
-- Print all the letters except q and e
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar twice in your code
+- Print all the letters except `q` and `e`
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` twice in your code
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 4-print_alphabt.c -o 4-print_alphabt
 julien@ubuntu:~/0x01$ ./4-print_alphabt 
@@ -373,15 +376,15 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 4-print_alphabt.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `4-print_alphabt.c`
 
 ### [5. Numbers](./5-print_numbers.c)
 
-Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+Write a program that prints all single digit numbers of base 10 starting from `0`, followed by a new line.
 
-- All your code should be in the main function
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 5-print_numbers.c -o 5-print_numbers
 julien@ubuntu:~/0x01$ ./5-print_numbers 
@@ -391,18 +394,18 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 5-print_numbers.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `5-print_numbers.c`
 
 ### [6. Numberz](./6-print_numberz.c)
 
-Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+Write a program that prints all single digit numbers of base 10 starting from `0`, followed by a new line.
 
-- You are not allowed to use any variable of type char
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- You can only use putchar twice in your code
-- All your code should be in the main function
+- You are not allowed to use any variable of type `char`
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- You can only use `putchar` twice in your code
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 6-print_numberz.c -o 6-print_numberz
 julien@ubuntu:~/0x01$ ./6-print_numberz 
@@ -412,17 +415,17 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 6-print_numberz.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `6-print_numberz.c`
 
 ### [7. Smile in the mirror](./7-print_tebahpla.c)
 
 Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar twice in your code
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` twice in your code
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 7-print_tebahpla.c -o 7-print_tebahpla
 julien@ubuntu:~/0x01$ ./7-print_tebahpla
@@ -432,17 +435,17 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 7-print_tebahpla.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `7-print_tebahpla.c`
 
 ### [8. Hexadecimal](./8-print_base16.c)
 
 Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar three times in your code
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` three times in your code
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 8-print_base16.c -o 8-print_base16
 julien@ubuntu:~/0x01$ ./8-print_base16
@@ -452,20 +455,20 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 8-print_base16.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `8-print_base16.c`
 
 ### [9. Patience, persistence and perspiration make an unbeatable combination for success](./9-print_comb.c)
 
 Write a program that prints all possible combinations of single-digit numbers.
 
-- Numbers must be separated by ,, followed by a space
+- Numbers must be separated by `,`, followed by a space
 - Numbers should be printed in ascending order
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- All your code should be in the main function
-- You can only use putchar four times maximum in your code
-- You are not allowed to use any variable of type char
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- All your code should be in the `main` function
+- You can only use `putchar` four times maximum in your code
+- You are not allowed to use any variable of type `char`
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 9-print_comb.c -o 9-print_comb
 julien@ubuntu:~/0x01$ ./9-print_comb | cat -e
@@ -475,20 +478,20 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 9-print_comb.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `9-print_comb.c`
 
 ### [10. 00...99](./10-print_comb2.c)
 
-Write a program that prints the numbers from 00 to 99.
+Write a program that prints the numbers from `00` to `99`.
 
-- Numbers must be separated by ,, followed by a space
+- Numbers must be separated by `,`, followed by a space
 - Numbers should be printed in ascending order, with two digits
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- You can only use putchar five times maximum in your code
-- You are not allowed to use any variable of type char
-- All your code should be in the main function
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- You can only use `putchar` five times maximum in your code
+- You are not allowed to use any variable of type `char`
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 10-print_comb2.c -o 10-print_comb2
 julien@ubuntu:~/0x01$ ./10-print_comb2 
@@ -498,9 +501,9 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 10-print_comb2.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `10-print_comb2.c`
 
 ### [11. Inventing is a combination of brains and materials. The more brains you use, the less material you need #advanced](./100-print_comb3.c)
 
@@ -508,13 +511,13 @@ Write a program that prints all possible different combinations of two digits.
 
 - Numbers must be separated by ,, followed by a space
 - The two digits must be different
-- 01 and 10 are considered the same combination of the two digits 0 and 1
+- `01` and `10` are considered the same combination of the two digits `0` and `1`
 - Print only the smallest combination of two digits
 - Numbers should be printed in ascending order, with two digits
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- You can only use putchar five times maximum in your code
-- You are not allowed to use any variable of type char
-- All your code should be in the main function
+- You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+- You can only use `putchar` five times maximum in your code
+- You are not allowed to use any variable of type `char`
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 100-print_comb3.c -o 100-print_comb3
 julien@ubuntu:~/0x01$ ./100-print_comb3
@@ -524,9 +527,9 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 100-print_comb3.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `100-print_comb3.c`
 
 ### [12. The success combination in business is: Do what you do better... and: do more of what you do... #advanced](./101-print_comb4.c)
 
@@ -534,13 +537,13 @@ Write a program that prints all possible different combinations of three digits.
 
 - Numbers must be separated by ,, followed by a space
 - The three digits must be different
-- 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+- `012`, `120`, `102`, `021`, `201`, `210` are considered the same combination of the three digits `0`, `1` and `2`
 - Print only the smallest combination of three digits
 - Numbers should be printed in ascending order, with three digits
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- You can only use putchar six times maximum in your code
-- You are not allowed to use any variable of type char
-- All your code should be in the main function
+- You can only use the `putchar` function (every other function (printf, puts, etc…) is forbidden)
+- You can only use `putchar` six times maximum in your code
+- You are not allowed to use any variable of type `char`
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 101-print_comb4.c -o 101-print_comb4
 julien@ubuntu:~/0x01$ ./101-print_comb4
@@ -550,24 +553,24 @@ julien@ubuntu:~/0x01$
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 101-print_comb4.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `101-print_comb4.c`
 
 ### [13. Software is eating the World #advanced](./102-print_comb5.c)
 
 Write a program that prints all possible combinations of two two-digit numbers.
 
-- The numbers should range from 0 to 99
+- The numbers should range from `0` to `99`
 - The two numbers should be separated by a space
-- All numbers should be printed with two digits. 1 should be printed as 01
+- All numbers should be printed with two digits. `1` should be printed as `01`
 - The combination of numbers must be separated by comma, followed by a space
 - The combinations of numbers should be printed in ascending order
-- 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
-- You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-- You can only use putchar eight times maximum in your code
-- You are not allowed to use any variable of type char
-- All your code should be in the main function
+- `00 01` and `01 00` are considered as the same combination of the numbers `0` and `1`
+- You can only use the `putchar` function (every other function (printf, puts, etc…) is forbidden)
+- You can only use `putchar` eight times maximum in your code
+- You are not allowed to use any variable of type `char`
+- All your code should be in the `main` function
 ```
 julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x01$ gcc -Wall -pedantic -Werror -Wextra 102-print_comb5.c -o 102-print_comb5
 julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x01$ ./102-print_comb5
@@ -576,6 +579,14 @@ julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0
 
 **Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x01-variables_if_else_while
-File: 102-print_comb5.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x01-variables_if_else_while`
+* File: `102-print_comb5.c`
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
