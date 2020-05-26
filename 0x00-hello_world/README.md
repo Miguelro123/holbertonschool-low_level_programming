@@ -146,16 +146,16 @@ Which command can be used to compile a C source file?
 
  Which of the following are both valid comment syntaxes in ANSI C, and Betty-compliant?
 
-- [x] ```/* Comment */```
-- [ ] ```// Comment```
-- [ ] ```/*```
-      ```Comment```
-      ```*/```
-- [x] ```/*```
-      ```* Comment```
-      ```*/```
-- [ ] ```# Comment```
-- [ ] ```/* Comment /* nested */ */```
+- [x] <pre>/* Comment */ </pre>
+- [ ] <pre>// Comment </pre>
+- [ ] <pre>/*
+            Comment
+            */ <pre>
+- [x] <pre>/*
+            * Comment
+            */ </pre>
+- [ ] <pre># Comment </pre>
+- [ ] <pre>/* Comment /* nested */ */ </pre>
 
 ### Question #5
 
