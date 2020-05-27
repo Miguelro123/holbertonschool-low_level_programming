@@ -156,7 +156,7 @@ What is the result of `89 % 7`?
 <details>
 <summary>View Contents</summary>
   
-### [0. _putchar]()
+### [0. _putchar](0-holberton.c)
 
 Write a program that prints `Holberton`, followed by a new line.
 
@@ -174,7 +174,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `0-holberton.c`
 
-### [1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game]()
+### [1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](1-alphabet.c)
 
 Write a function that prints the alphabet, in lowercase, followed by a new line.
 
@@ -206,7 +206,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `1-alphabet.c`
 
-### [2. 10 x alphabet]()
+### [2. 10 x alphabet](2-print_alphabet_x10.c)
 
 Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
@@ -247,7 +247,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `2-print_alphabet_x10.c`
 
-### [3. islower]()
+### [3. islower](3-islower.c)
 
 Write a function that checks for lowercase character.
 
@@ -289,7 +289,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `3-islower.c`
 
-### [4. isalpha]()
+### [4. isalpha](4-isalpha.c)
 
 Write a function that checks for alphabetic character.
 
@@ -333,7 +333,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `4-isalpha.c`
 
-### [5. Sign]()
+### [5. Sign](5-sign.c)
 
 Write a function that prints the sign of a number.
 
@@ -391,7 +391,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `5-sign.c`
 
-### [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you]()
+### [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](6-abs.c)
 
 Write a function that computes the absolute value of an integer.
 
@@ -436,7 +436,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `6-abs.c`
 
-### [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important]()
+### [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](7-print_last_digit.c)
 
 Write a function that prints the last digit of a number.
 
@@ -474,7 +474,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `7-print_last_digit.c`
 
-### [8. I'm federal agent Jack Bauer, and today is the longest day of my life]()
+### [8. I'm federal agent Jack Bauer, and today is the longest day of my life](8-24_hours.c)
 
 Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
@@ -528,7 +528,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `8-24_hours.c`
 
-### [9. Learn your times table]()
+### [9. Learn your times table](9-times_table.c)
 
 Write a function that prints the 9 times table, starting with 0.
 
@@ -580,7 +580,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `9-times_table.c`
 
-### [10. a + b]()
+### [10. a + b](10-add.c)
 
 Write a function that adds two integers and returns the result.
 
@@ -615,7 +615,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `10-add.c`
 
-### [11. Holberton School, 98 Battery Street, the OG]()
+### [11. Holberton School, 98 Battery Street, the OG](11-print_to_98.c)
 
 Write a function that prints all natural numbers from `n` to `98`, followed by a new line.
 
@@ -659,7 +659,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `11-print_to_98.c`
 
-### [12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself #advanced]()
+### [12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself #advanced](100-times_table.c)
 
 Write a function that prints the `n` times table, starting with 0.
 
@@ -750,7 +750,7 @@ julien@ubuntu:~/0x02$
 * Directory: `0x02-functions_nested_loops`
 * File: `100-times_table.c`
 
-### [13. Nature made the natural numbers; All else is the work of women #advanced]()
+### [13. Nature made the natural numbers; All else is the work of women #advanced](101-natural.c)
 
 If we list all the natural numbers below `10` that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Write a program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line.
 
@@ -762,7 +762,7 @@ If we list all the natural numbers below `10` that are multiples of `3` or `5`, 
 * Directory: `0x02-functions_nested_loops`
 * File: `101-natural.c`
 
-### [14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A #advanced]()
+### 14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A #advanced
 
 Write a program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
 
@@ -775,7 +775,7 @@ Write a program that prints the first 50 Fibonacci numbers, starting with `1` an
 * Directory: `0x02-functions_nested_loops`
 * File: `102-fibonacci.c`
 
-### [15. Even Liber Abbaci #advanced]()
+### 15. Even Liber Abbaci #advanced
 
 Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with `1` and `2`, the first 10 terms will be: `1, 2, 3, 5, 8, 13, 21, 34, 55, 89`. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.
 
@@ -787,7 +787,7 @@ Each new term in the Fibonacci sequence is generated by adding the previous two 
 * Directory: `0x02-functions_nested_loops`
 * File: `103-fibonacci.c`
 
-### [16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+ #advanced]()
+### 16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+ #advanced
 
 Write a program that finds and prints the first 98 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
 
