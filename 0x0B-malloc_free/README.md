@@ -1,8 +1,23 @@
-C - malloc, free
+## Quiz questions
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+<details>
+<summary>Show</summary>
+  
 
-What is the difference between automatic and dynamic allocation
-What is malloc and free and how to use them
-Why and when use malloc
-How to use valgrind to check for memory leak
+
+</details>
+
+## Tasks
+
+<details>
+<summary>View Contents</summary>
+
+
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
