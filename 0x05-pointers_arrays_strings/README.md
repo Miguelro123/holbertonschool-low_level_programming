@@ -49,216 +49,149 @@ You do not need to learn about pointers to functions, pointers to pointers, mult
 <summary>Show</summary>
   
 ### Question #0
+
 What is the size of a pointer to a char (on a 64-bit architecture)
 
+- [ ] 1 byte
+- [ ] 2 bytes
+- [ ] 4 bytes
+- [x] 8 bytes
 
-1 byte
+### Question #1
 
-
-2 bytes
-
-
-4 bytes
-
-
-8 bytes
-
-Question #1
 What is the size of a pointer to an int (on a 64-bit architecture)
 
+- [ ] 1 byte
+- [ ] 2 bytes
+- [ ] 4 bytes
+- [x] 8 bytes
 
-1 byte
+### Question #2
 
-
-2 bytes
-
-
-4 bytes
-
-
-8 bytes
-
-Question #2
 If we have a variable called var of type int, how can we get its address in memory?
 
+- [ ] *var
+- [ ] *(var)
+- [x] &var
 
-*var
+### Question #3
 
-
-*(var)
-
-
-&var
-
-Question #3
 What is the identifier to print an address with printf?
 
+- [ ] %a
+- [ ] %d
+- [x] %p
+- [ ] %x
 
-%a
+### Question #4
 
-
-%d
-
-
-%p
-
-
-%x
-
-Question #4
 The process of getting the value that is stored in the memory location pointed to by a pointer is called:
 
+- [ ] Pointing
+- [ ] Accessing
+- [x] Dereferencing
+- [ ] Casting
 
-Pointing
+### Question #5
 
-
-Accessing
-
-
-Dereferencing
-
-
-Casting
-
-Question #5
 Is it possible to declare a pointer to a pointer?
 
+- [x] Yes
+- [ ] No
+- [ ] It depends on the type the pointer is pointing to
 
-Yes
+### Question #6
 
-
-No
-
-
-It depends on the type the pointer is pointing to
-
-Question #6
 What happens when one tries to access an illegal memory location?
 
+- [ ] The operation is ignored
+- [x] Segmentation fault
+- [ ] The computer shuts down
+- [ ] There’s a chance for the computer to catch fire, and sometimes even explode
 
-The operation is ignored
+### Question #7
 
-
-Segmentation fault
-
-
-The computer shuts down
-
-
-There’s a chance for the computer to catch fire, and sometimes even explode
-
-Question #7
-What is the value of n after the following code is executed?
-
+What is the value of `n` after the following code is executed?
+```
 int n = 98;
 int *p = &n;
+```
+- [ ] 0
+- [x] 98
+- [ ] 99
+- [ ] 402
 
-0
+### Question #8
 
-
-98
-
-
-99
-
-
-402
-
-Question #8
-What is the value of n after the following code is executed?
-
+What is the value of `n` after the following code is executed?
+```
 int n = 98;
 int *p = &n;
 
 p = 402;
+```
 
-0
+- [ ] 0
+- [x] 98
+- [ ] 99
+- [ ] 402
 
+### Question #9
 
-98
-
-
-99
-
-
-402
-
-Question #9
-What is the value of n after the following code is executed?
-
+What is the value of `n` after the following code is executed?
+```
 int n = 98;
 int *p = &n;
 
 *p = 402;
+```
 
-0
+- [ ] 0
+- [ ] 98
+- [ ] 99
+- [x] 402
 
+### Question #10
 
-98
-
-
-99
-
-
-402
-
-Question #10
-What is the value of n after the following code is executed?
-
+What is the value of `n` after the following code is executed?
+```
 int n = 98;
 int *p = &n;
 
 *p++;
+```
 
-0
+- [ ] 0
+- [x] 98
+- [ ] 99
+- [ ] 402
 
+### Question #11
 
-98
-
-
-99
-
-
-402
-
-Question #11
 We declare the following variable
-
+```
 int arr[5];
-What is the size in memory of the variable arr?
+```
+What is the size in memory of the variable `arr`?
 
+- [ ] 4 bytes
+- [ ] 5 bytes
+- [ ] 8 bytes
+- [ ] 10 bytes
+- [x] 20 bytes
+- [ ] 32 bytes
 
-4 bytes
+### Question #12
 
-
-5 bytes
-
-
-8 bytes
-
-
-10 bytes
-
-
-20 bytes
-
-
-32 bytes
-
-Question #12
 We declare the following variable
-
+```
 int arr[5];
-What is the equivalent of typing arr[2]?
+```
+What is the equivalent of typing `arr[2]`?
 
-
-arr + 2
-
-
-*arr + 2
-
-
-*(arr + 2)
+- [ ] arr + 2
+- [ ] *arr + 2
+- [x] *(arr + 2)
 
 </details>
 
