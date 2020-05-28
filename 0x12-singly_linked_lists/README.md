@@ -1,8 +1,23 @@
-C - Singly linked lists
-0. Print list
-1. List length
-2. Add node
-3. Add node at the end
-4. Free list
-5. The Hare and the Tortoise
-6. Real programmers can write assembly code in any language
+## Quiz questions
+
+<details>
+<summary>Show</summary>
+  
+
+
+</details>
+
+## Tasks
+
+<details>
+<summary>View Contents</summary>
+
+
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
