@@ -1,4 +1,23 @@
-C - Variadic functions
-What are variadic functions.
-How to use va_start, va_arg and va_end macros.
-Why and how to use the const type qualifier.
+## Quiz questions
+
+<details>
+<summary>Show</summary>
+  
+
+
+</details>
+
+## Tasks
+
+<details>
+<summary>View Contents</summary>
+
+
+
+</details>
+
+## Author
+### _Edgar Miguel Rodríguez G._
+
+- **Github:** [Miguelro123](https://github.com/Miguelro123) 
+- **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
