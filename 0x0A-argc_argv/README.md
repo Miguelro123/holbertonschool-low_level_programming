@@ -9,7 +9,7 @@
 - [What does argc and argv mean?](https://www.youtube.com/watch?v=aP1ijjeZc24)
 - [how to compile with unused variables](https://www.google.com/webhp?q=unused+variable+C)
 
-##Learning Objectives
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
