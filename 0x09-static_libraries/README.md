@@ -242,10 +242,10 @@ julien@ubuntu:~/0x09. Static Librairies$
 * Directory: `0x09-static_libraries`
 * File: `libholberton.a, holberton.h`
 
-### [1. Without libraries what have we? We have no past and no future]()
-Score: 100.00% (Checks completed: 100.00%)
-Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+### [1. Without libraries what have we? We have no past and no future](./create_static_lib.sh)
 
+Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.
+```
 julien@ubuntu:~/0x09. Static Librairies$ ls *.c
 0-isupper.c  0-strcat.c  1-isdigit.c  1-strncat.c  2-strlen.c   3-islower.c  3-strcmp.c  4-isalpha.c  5-strstr.c  9-strcpy.c  _putchar.c
 0-memset.c   100-atoi.c  1-memcpy.c   2-strchr.c   2-strncpy.c  3-puts.c     3-strspn.c  4-strpbrk.c  6-abs.c
@@ -274,20 +274,23 @@ julien@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
 9-strcpy.o
 _putchar.o
 julien@ubuntu:~/0x09. Static Librairies$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x09-static_libraries
-File: create_static_lib.sh
+**Repo:**
 
-2. Either write something worth reading or do something worth writing mandatory
-Score: 89.23% (Checks completed: 92.31%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x09-static_libraries`
+* File: `create_static_lib.sh`
+
+### 2. Either write something worth reading or do something worth writing mandatory
+
 Write a blog post on C static libraries. It should cover:
 
-Why use libraries
-How they work
-How to create them
-How to use them
+- Why use libraries
+- How they work
+- How to create them
+- How to use them
+
 Your posts should have examples and at least one picture, at the top. Publish your blog post on Medium or LinkedIn, and share it at least on LinkedIn.
 
 When done, please add all urls below (blog post, LinkedIn post, etc.)
