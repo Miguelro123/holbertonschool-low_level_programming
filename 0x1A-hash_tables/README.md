@@ -89,14 +89,15 @@ Note that all dictionaries are not implemented using hash tables and there is a 
 <details>
 <summary>View Contents</summary>
 
-0. >>> ht = {} mandatory
-Score: 100.00% (Checks completed: 100.00%)
+### [0. >>> ht = {}](./0-hash_table_create.c)
+
 Write a function that creates a hash table.
 
-Prototype: hash_table_t *hash_table_create(unsigned long int size);
-where size is the size of the array
-Returns a pointer to the newly created hash table
-If something went wrong, your function should return NULL
+- Prototype: `hash_table_t *hash_table_create(unsigned long int size);`
+     - where `size` is the size of the array
+- Returns a pointer to the newly created hash table
+- If something went wrong, your function should return `NULL`
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 0-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -142,18 +143,21 @@ julien@ubuntu:~/0x1A. Hash tables$ valgrind ./a
 ==7602== For counts of detected and suppressed errors, rerun with: -v
 ==7602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/0x1A. Hash tables$
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 0-hash_table_create.c
+**Repo:**
 
-1. djb2 mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `0-hash_table_create.c`
+
+### [1. djb2](./1-djb2.c)
+
 Write a hash function implementing the djb2 algorithm.
 
-Prototype: unsigned long int hash_djb2(const unsigned char *str);
-You are allowed to copy and paste the function from this page
+- Prototype: `unsigned long int hash_djb2(const unsigned char *str);`
+- You are allowed to copy and paste the function from [this page](https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8)
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 1-djb2.c 
 unsigned long int hash_djb2(const unsigned char *str)
 {
@@ -197,22 +201,25 @@ julien@ubuntu:~/0x1A. Hash tables$ ./b
 3749890792216096085
 5861846
 julien@ubuntu:~/0x1A. Hash tables$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 1-djb2.c
+**Repo:**
 
-2. key -> index mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `1-djb2.c`
+
+### [2. key -> index](./2-key_index.c)
+
 Write a function that gives you the index of a key.
 
-Prototype: unsigned long int key_index(const unsigned char *key, unsigned long int size);
-where key is the key
-and size is the size of the array of the hash table
-This function should use the hash_djb2 function that you wrote earlier
-Returns the index at which the key/value pair should be stored in the array of the hash table
-You will have to use this hash function for all the next tasks
+- Prototype: `unsigned long int key_index(const unsigned char *key, unsigned long int size);`
+     - where `key` is the key
+     - and `size` is the size of the array of the hash table
+- This function should use the `hash_djb2` function that you wrote earlier
+- Returns the index at which the key/value pair should be stored in the array of the hash table
+- You will have to use this hash function for all the next tasks
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 2-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -250,22 +257,25 @@ julien@ubuntu:~/0x1A. Hash tables$ ./c
 5861846
 470
 julien@ubuntu:~/0x1A. Hash tables$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 2-key_index.c
+**Repo:**
 
-3. >>> ht['betty'] = 'holberton' mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `2-key_index.c`
+
+### [3. >>> ht['betty'] = 'holberton'](./3-hash_table_set.c)
+
 Write a function that adds an element to the hash table.
 
-Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value);
-Where ht is the hash table you want to add or update the key/value to
-key is the key. key can not be an empty string
-and value is the value associated with the key. value must be duplicated. value can be an empty string
-Returns: 1 if it succeeded, 0 otherwise
-In case of collision, add the new node at the beginning of the list
+- Prototype: `int hash_table_set(hash_table_t *ht, const char *key, const char *value);`
+     - Where `ht` is the hash table you want to add or update the key/value to
+     - `key` is the `key`. key can not be an empty string
+     - and `value` is the value associated with the key. `value` must be duplicated. `value` can be an empty string
+- Returns: `1` if it succeeded, `0` otherwise
+- In case of collision, add the new node at the beginning of the list
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 3-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -287,29 +297,33 @@ int main(void)
 }
 julien@ubuntu:~/0x1A. Hash tables$ gcc -Wall -pedantic -Werror -Wextra 3-main.c 0-hash_table_create.c 1-djb2.c 2-key_index.c 3-hash_table_set.c -o d
 julien@ubuntu:~/0x1A. Hash tables$
-Tip from Jennie Chu - Cohort 1, San Francisco: if you want to test for collisions, here are some strings that collide using the djb2 algorithm:
+```
 
-hetairas collides with mentioner
-heliotropes collides with neurospora
-depravement collides with serafins
-stylist collides with subgenera
-joyful collides with synaphea
-redescribed collides with urites
-dram collides with vivency
-Repo:
+If you want to test for collisions, here are some strings that collide using the djb2 algorithm:
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 3-hash_table_set.c
+- **hetairas** collides with **mentioner**
+- **heliotropes** collides with **neurospora**
+- **depravement** collides with **serafins**
+- **stylist** collides with **subgenera**
+- **joyful** collides with **synaphea**
+- **redescribed** collides with **urites**
+- **dram** collides with **vivency**
 
-4. >>> ht['betty'] mandatory
-Score: 100.00% (Checks completed: 100.00%)
+**Repo:**
+
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `3-hash_table_set.c`
+
+### [4. >>> ht['betty']](./4-hash_table_get.c)
+
 Write a function that retrieves a value associated with a key.
 
-Prototype: char *hash_table_get(const hash_table_t *ht, const char *key);
-where ht is the hash table you want to look into
-and key is the key you are looking for
-Returns the value associated with the element, or NULL if key couldn’t be found
+- Prototype: `char *hash_table_get(const hash_table_t *ht, const char *key);`
+     - where `ht` is the hash table you want to look into
+     - and `key` is the key you are looking for
+- Returns the value associated with the element, or `NULL` if `key` couldn’t be found
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 4-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -365,22 +379,25 @@ Betty:Holberton
 c:isfun
 javascript:(null)
 julien@ubuntu:~/0x1A. Hash tables$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 4-hash_table_get.c
+**Repo:**
 
-5. >>> print(ht) mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `4-hash_table_get.c`
+
+### [5. >>> print(ht)](./5-hash_table_print.c)
+
 Write a function that prints a hash table.
 
-Prototype: void hash_table_print(const hash_table_t *ht);
-where ht is the hash table
-You should print the key/value in the order that they appear in the array of hash table
-Order: array, list
-Format: see example
-If ht is NULL, don’t print anything
+- Prototype: `void hash_table_print(const hash_table_t *ht);`
+     - where `ht` is the hash table
+- You should print the key/value in the order that they appear in the array of hash table
+     - Order: array, list
+- Format: see example
+- If `ht` is NULL, don’t print anything
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 5-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -413,18 +430,21 @@ julien@ubuntu:~/0x1A. Hash tables$ ./f
 {}
 {'Betty': 'Holberton', 'python': 'awesome', 'Jennie': 'and Jay love asm', '98': 'Battery Street', 'N': 'queens', 'c': 'fun', 'Asterix': 'Obelix'}
 julien@ubuntu:~/0x1A. Hash tables$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 5-hash_table_print.c
+**Repo:**
 
-6. >>> del ht mandatory
-Score: 100.00% (Checks completed: 100.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `5-hash_table_print.c`
+
+### [6. >>> del ht](./6-hash_table_delete.c)
+
 Write a function that deletes a hash table.
 
-Prototype: void hash_table_delete(hash_table_t *ht);
-where ht is the hash table
+- Prototype: `void hash_table_delete(hash_table_t *ht);`
+     - where `ht` is the hash table
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 6-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -484,25 +504,26 @@ julien@ubuntu:~/0x1A. Hash tables$ valgrind ./g
 ==6621== For counts of detected and suppressed errors, rerun with: -v
 ==6621== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 julien@ubuntu:~/0x1A. Hash tables$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 6-hash_table_delete.c
+**Repo:**
 
-7. $ht['Betty'] = 'Holberton' #advanced
-Score: 0.00% (Checks completed: 0.00%)
-In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `6-hash_table_delete.c`
 
+### 7. $ht['Betty'] = 'Holberton' #advanced
 
+In [PHP](https://www.php.net/manual/en/intro-whatis.php), hash tables are **ordered**. Wait… WAT? How is this even possible?
 
-Before you continue, please take a moment to think about it: how you would implement it if you were asked to during an interview or a job. What data structures would you use? How would it work?
+**Before you continue**, please take a moment to think about it: how you would implement it if you were asked to during an interview or a job. What data structures would you use? How would it work?
 
 For this task, please:
 
-Read PHP Internals Book: HashTable
-Use the same hash function
-Use these data structures:
+- Read [PHP Internals Book: HashTable](http://www.phpinternalsbook.com/php5/hashtables/basic_structure.html)
+- Use the same hash function
+- Use these data structures:
+```
 /**
  * struct shash_node_s - Node of a sorted hash table
  *
@@ -539,19 +560,22 @@ typedef struct shash_table_s
      shash_node_t *shead;
      shash_node_t *stail;
 } shash_table_t;
+```
+
 Rewrite the previous functions using these data structures:
 
-shash_table_t *shash_table_create(unsigned long int size);
-int shash_table_set(shash_table_t *ht, const char *key, const char *value);
-The key/value pair should be inserted in the sorted list at the right place
-Note that here we do not want to do exactly like PHP: we want to create a sorted linked list, by key (sorted on ASCII value), that we can print by traversing it. See example.
-char *shash_table_get(const shash_table_t *ht, const char *key);
-void shash_table_print(const shash_table_t *ht);
-Should print the hash table using the sorted linked list
-void shash_table_print_rev(const shash_table_t *ht);
-Should print the hash tables key/value pairs in reverse order using the sorted linked list
-void shash_table_delete(shash_table_t *ht);
-You are allowed to have more than 5 functions in your file
+- `shash_table_t *shash_table_create(unsigned long int size);`
+- `int shash_table_set(shash_table_t *ht, const char *key, const char *value);`
+     - The key/value pair should be inserted in the sorted list at the right place
+     - Note that here we do not want to do exactly like PHP: we want to create a sorted linked list, by key (sorted on ASCII value), that we can print by traversing it. See example.
+- `char *shash_table_get(const shash_table_t *ht, const char *key);`
+- `void shash_table_print(const shash_table_t *ht);`
+     - Should print the hash table using the sorted linked list
+- `void shash_table_print_rev(const shash_table_t *ht);`
+     - Should print the hash tables key/value pairs in reverse order using the sorted linked list
+- `void shash_table_delete(shash_table_t *ht);`
+- You are allowed to have more than 5 functions in your file
+```
 julien@ubuntu:~/0x1A. Hash tables$ cat 100-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -600,14 +624,13 @@ julien@ubuntu:~/0x1A. Hash tables$ ./sht
 {'a': '6', 'b': '3', 'c': '2', 'j': '1', 'm': '7', 'n': '5', 'y': '0', 'z': '4'}
 {'z': '4', 'y': '0', 'n': '5', 'm': '7', 'j': '1', 'c': '2', 'b': '3', 'a': '6'}
 julien@ubuntu:~/0x1A. Hash tables$ 
+```
 
+**Repo:**
 
-
-Repo:
-
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x1A-hash_tables
-File: 100-sorted_hash_table.c
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x1A-hash_tables`
+* File: `100-sorted_hash_table.c`
 
 </details>
 
