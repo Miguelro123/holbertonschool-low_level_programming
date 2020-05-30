@@ -51,10 +51,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 <details>
 <summary>View Contents</summary>
 
-### [0. A library is not a luxury but one of the necessities of life](./)
+### [0. A library is not a luxury but one of the necessities of life](./libholberton.so)
 
 Create the dynamic library libholberton.so containing all the functions listed below:
-
+```
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -75,9 +75,11 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+```
 If you haven’t coded all of the above functions create empty ones, with the right prototype.
-Don’t forget to push your holberton.h file in your repository, containing at least all the prototypes of the above functions.
 
+Don’t forget to push your `holberton.h` file in your repository, containing at least all the prototypes of the above functions.
+```
 julien@ubuntu:~/0x18. Dynamic libraries$ ls -la lib*
 -rwxrwxr-x 1 julien julien 13632 Jan  7 06:25 libholberton.so
 julien@ubuntu:~/0x18. Dynamic libraries$ nm -D libholberton.so 
@@ -141,16 +143,18 @@ julien@ubuntu:~/0x18. Dynamic libraries$ ldd len
 julien@ubuntu:~/0x18. Dynamic libraries$ ./len 
 9
 julien@ubuntu:~/0x18. Dynamic libraries$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x18-dynamic_libraries
-File: libholberton.so, holberton.h
+**Repo:**
 
-1. Without libraries what have we? We have no past and no future mandatory
-Score: 100.00% (Checks completed: 100.00%)
-Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x18-dynamic_libraries`
+* File: `libholberton.so, holberton.h`
 
+### [1. Without libraries what have we? We have no past and no future](./1-create_dynamic_lib.sh)
+
+Create a script that creates a dynamic library called `liball.so` from all the `.c` files that are in the current directory.
+```
 julien@ubuntu:~/0x18. Dynamic libraries$ ls *.c
 abs.c   isalpha.c  islower.c  memcpy.c  putchar.c  strcat.c  strcmp.c  strlen.c   strncpy.c  strspn.c
 atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c  strpbrk.c  strstr.c
@@ -182,37 +186,37 @@ julien@ubuntu:~/0x18. Dynamic libraries$ nm -D --defined-only liball.so
 000000000000109d T _strspn
 0000000000001176 T _strstr
 julien@ubuntu:~/0x18. Dynamic libraries$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x18-dynamic_libraries
-File: 1-create_dynamic_lib.sh
+**Repo:**
 
-2. Either write something worth reading or do something worth writing mandatory
-Score: 0.00% (Checks completed: 0.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x18-dynamic_libraries`
+* File: `1-create_dynamic_lib.sh`
+
+### 2. Either write something worth reading or do something worth writing
+
 Write a blog post describing the differences between static and dynamic libraries. It should cover:
 
-Why using libraries in general
-How do they work
-How to create them (Linux only)
-How to use them (Linux only)
-What are the differences between static and dynamic libraries
-What are the advantages and drawbacks of each of them
+- Why using libraries in general
+- How do they work
+- How to create them (Linux only)
+- How to use them (Linux only)
+- What are the differences between static and dynamic libraries
+- What are the advantages and drawbacks of each of them
+
 Your posts should have examples and at least one picture, at the top. Publish your blog post on Medium or LinkedIn, and share it at least on LinkedIn.
 
 When done, please add all urls below (blog post, LinkedIn post, etc.)
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 
-Add URLs here:
+### [3. Let's call C functions from Python #advanced](./100-operations.so)
 
-
-3. Let's call C functions from Python #advanced
-Score: 100.00% (Checks completed: 100.00%)
 I know, you’re missing C when coding in Python. So let’s fix that!
 
 Create a dynamic library that contains C functions that can be called from Python. See example for more detail.
-
+```
 julien@ubuntu:~/0x18$ cat 100-tests.py
 import random
 import ctypes
@@ -250,19 +254,20 @@ julien@ubuntu:~/0x18$ python3 100-tests.py
 39 / -62 = 0
 39 % -62 = 39
 julien@ubuntu:~/0x18$ 
-Repo:
+```
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x18-dynamic_libraries
-File: 100-operations.so
+**Repo:**
 
-4. Code injection: Win the Giga Millions! #advanced
-Score: 0.00% (Checks completed: 0.00%)
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x18-dynamic_libraries`
+* File: `100-operations.so`
 
+### 4. Code injection: Win the Giga Millions! #advanced
 
 I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9. If you could run two commands on the same server where the Giga Millions program runs, could you make me win the Jackpot?
 
-Our mole got us a copy of the program, you can download it here. Our mole also gave us a piece of documentation:
+- Our mole got us a copy of the program, you can download it here. Our mole also gave us a piece of documentation:
+```
 /* Giga Millions program                                                                                    
   * Players may pick six numbers from two separate pools of numbers:                                                
   * - five different numbers from 1 to 75 and                                                                       
@@ -271,18 +276,20 @@ Our mole got us a copy of the program, you can download it here. Our mole also g
   * Your chances to win the jackpot is 1 in 258,890,850                                                             
   *                                                                                                                 
   * usage: ./gm n1 n2 n3 n4 n5 bonus
-You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS) always checks its MD5 before running it
-The system is an Linux Ubuntu 16.04
-The server has internet access
-Our mole will be only able to run two commands from a shell script, without being detected by MSS
-Your shell script should be maximum 3 lines long. You are not allowed to use ;, &&, ||, |, ` (it would be detected by MSS), and have a maximum of two commands
-Our mole has only the authorization to upload one file on the server. It will be your shell script
-Our mole will run your shell script this way: mss@gm_server$ . ./101-make_me_win.sh
-Our mole will run your shell script from the same directory containing the program gm, exactly 98 seconds before MSS runs gm with my numbers: ./gm 9 8 10 24 75 9
-MSS will use the same terminal and session than our mole
-Before running the gm program, MSS always check the content of the directory
-MSS always exit after running the program gm
-TL;DR; This is what is going to happen
+```
+- You can’t modify the program `gm` itself as Master Sysadmin Sylvain (MSS) always checks its [MD5](https://github.com/holbertonschool/0x18.c/blob/master/101-md5_gm) before running it
+- The system is an `Linux Ubuntu 16.04`
+- The server has internet access
+- Our mole will be only able to run two commands from a shell script, without being detected by MSS
+- Your shell script should be maximum 3 lines long. You are not allowed to use `;`, `&&`, `||`, `|`,  (it would be detected by MSS), and have a maximum of two commands
+- Our mole has only the authorization to upload one file on the server. It will be your shell script
+- Our mole will run your shell script this way: `mss@gm_server$ . ./101-make_me_win.sh`
+- Our mole will run your shell script from the same directory containing the program `gm`, exactly 98 seconds before MSS runs `gm` with my numbers: `./gm 9 8 10 24 75 9`
+- MSS will use the same terminal and session than our mole
+- Before running the `gm` program, MSS always check the content of the directory
+- MSS always exit after running the program `gm`
+- TL;DR; This is what is going to happen
+```
 mss@gm_server$ . ./101-make_me_win.sh
 mss@gm_server$ rm 101-make_me_win.sh
 mss@gm_server$ ls -la
@@ -296,13 +303,14 @@ d52e6c18e0723f5b025a75dea19ef365  gm
 mss@gm_server$ ./gm 9 8 10 24 75 9
 --> Please make me win!
 mss@gm_server$ exit
-Tip: LD_PRELOAD
+```
+Tip: `LD_PRELOAD`
 
-Repo:
+**Repo:**
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: 0x18-dynamic_libraries
-File: 101-make_me_win.sh
+* GitHub repository: `holbertonschool-low_level_programming`
+* Directory: `0x18-dynamic_libraries`
+* File: `101-make_me_win.sh`
 
 </details>
 
