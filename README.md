@@ -22,7 +22,7 @@
   [Structures, typedef](./0x0E-structures_typedef) | 22/07/2019, 2 days
   [Function pointers](./0x0F-function_pointers) | 24/07/2019, 2 days
   [Variadic functions](./0x10-variadic_functions) | 26/07/2019, 4 days
-  [Singly linked lists](.0x12-singly_linked_lists) | 01/08/2019, 2 days
+  [Singly linked lists](./0x12-singly_linked_lists) | 01/08/2019, 2 days
   [More singly linked lists](./0x13-more_singly_linked_lists) | 05/08/2019, 3 days
   [Bit manipulation](./0x14-bit_manipulation) | 08/08/2019, 2 days
   [File I/O](./0x15-file_io) | 13/08/2019, 2 days
