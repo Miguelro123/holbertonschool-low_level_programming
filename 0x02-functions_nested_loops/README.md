@@ -47,6 +47,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
 
+---
+
 ## Quiz questions
 
 <details>
@@ -150,6 +152,8 @@ What is the result of `89 % 7`?
 - [x] 5
 
 </details>
+
+---
 
 ## Tasks
 
@@ -804,6 +808,8 @@ Write a program that finds and prints the first 98 Fibonacci numbers, starting w
 * File: `104-fibonacci.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
