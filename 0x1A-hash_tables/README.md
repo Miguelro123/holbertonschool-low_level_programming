@@ -84,6 +84,8 @@ Python dictionaries are implemented using hash tables. When you will be done wit
 
 Note that all dictionaries are not implemented using hash tables and there is a difference between a dictionary and a hash table. [Read more here](https://stackoverflow.com/questions/2061222/what-is-the-true-difference-between-a-dictionary-and-a-hash-table) (not mandatory).
 
+---
+
 ## Tasks
 
 <details>
@@ -633,6 +635,8 @@ julien@ubuntu:~/0x1A. Hash tables$
 * File: `100-sorted_hash_table.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
