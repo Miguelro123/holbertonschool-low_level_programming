@@ -47,6 +47,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
 
+---
+
 ## Quiz questions
 
 <details>
@@ -204,6 +206,8 @@ int some_function(void)
 - [ ] 0123456789
 
 </details>
+
+---
 
 ## Tasks
 
@@ -727,6 +731,8 @@ julien@ubuntu:~/0x04$
 * File: `101-print_number.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
