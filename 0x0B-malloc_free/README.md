@@ -46,6 +46,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not have to learn about `calloc` and `realloc`.
 
+---
+
 ## Quiz questions
 
 <details>
@@ -125,6 +127,8 @@ How many bytes will this statement allocate?
 - [x] 11
 
 </details>
+
+---
 
 ## Tasks
 
@@ -598,6 +602,8 @@ julien@ubuntu:~/0x0a. malloc, free$
 * File: `100-strtow.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
