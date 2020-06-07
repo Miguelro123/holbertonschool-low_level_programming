@@ -42,6 +42,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not need to learn about pointers to functions, arrays of structures, `malloc` and `free` - yet.
 
+---
+
 ## Quiz questions
 
 <details>
@@ -148,6 +150,8 @@ What is stored inside a pointer to a pointer to an int?
 - [x] An address where an address is stored
 
 </details>
+
+---
 
 ## Tasks
 
@@ -650,6 +654,8 @@ Create a file that contains the password for the [crackme2](https://github.com/h
 * File: `101-crackme_password`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
