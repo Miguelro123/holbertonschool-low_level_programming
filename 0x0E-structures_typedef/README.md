@@ -41,6 +41,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+---
+
 ## Quiz questions
 
 <details>
@@ -114,6 +116,8 @@ To set the member y of my variable my_point to 98, I can do (select all valid an
 - [ ] p->y = 98;
 
 </details>
+
+---
 
 ## Tasks
 
@@ -361,6 +365,8 @@ julien@ubuntu:~/0x0d. structures, typedef$
 * File: `5-free_dog.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
