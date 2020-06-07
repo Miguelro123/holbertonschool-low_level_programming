@@ -35,6 +35,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - You are allowed to use the standard library
 
+---
+
 ## Quiz questions
 
 <details>
@@ -128,6 +130,8 @@ $ ./hbtn "Holberton School is fun"
 - [ ] Holberton School is fun
 
 </details>
+
+---
 
 ## Tasks
 
@@ -295,6 +299,8 @@ julien@ubuntu:~/0x0A. argc, argv$
 * File: `100-change.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
