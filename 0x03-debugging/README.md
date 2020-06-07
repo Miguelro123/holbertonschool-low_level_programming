@@ -31,6 +31,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - A README.md file at the root of the `holbertonschool-low_level_programming` repo, containing a description of the repository
 - A README.md file, at the root of the folder of this project (i.e. `0x03-debugging`), describing what this project is about
 
+---
+
 ## Quiz questions
 
 <details>
@@ -247,6 +249,8 @@ int main(void)
 - [ ] A `printf` statement shows that there is an infinite loop in the code
 
 </details>
+
+---
 
 ## Tasks
 
@@ -614,6 +618,8 @@ Line count will not be checked for this task.
 * File: `3-print_remaining_days.c, holberton.h`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
