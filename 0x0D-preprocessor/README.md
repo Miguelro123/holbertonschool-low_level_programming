@@ -43,6 +43,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+---
+
 ## Quiz questions
 
 <details>
@@ -240,6 +242,8 @@ int main(void)
 - [x] sizeof(i) = 1
 
 </details>
+
+---
 
 ## Tasks
 
@@ -510,6 +514,8 @@ This program should be written in C and will be compiled with `gcc`
 * File: `101-preprocessor_abuse.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
