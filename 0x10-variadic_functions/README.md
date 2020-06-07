@@ -45,6 +45,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+---
+
 ## Tasks
 
 <details>
@@ -227,6 +229,8 @@ julien@ubuntu:~/0x0f. Variadic functions$
 * File: `100-hello_holberton.asm`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
