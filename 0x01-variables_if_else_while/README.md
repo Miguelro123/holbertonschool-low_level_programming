@@ -53,6 +53,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - You are not allowed to use `system`
 - Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 
+---
+
 ## Quiz questions
 
 <details>
@@ -220,6 +222,8 @@ do while (a < b)
 </pre>
 
 </details>
+
+---
 
 ## Tasks
 
@@ -584,6 +588,8 @@ julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0
 * File: `102-print_comb5.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
