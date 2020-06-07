@@ -94,6 +94,8 @@ To match the examples in the tasks, you are given [this function](https://github
 
 This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
 
+---
+
 ## Tasks
 
 <details>
@@ -2821,6 +2823,8 @@ What are the average time complexities of those operations on a Binary Heap (one
 * File: `135-O`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
