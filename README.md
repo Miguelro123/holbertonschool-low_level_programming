@@ -2,6 +2,8 @@
 
   This repository contains project for the low level programming.
 
+---
+
   # Projects
   Projects | Date and time
   ----------- | -----------
@@ -34,6 +36,8 @@
   [Makefiles](./0x1C-makefiles) | 15/11/2019, 2 days
   [Binary trees](./0x1D-binary_trees) | 02/12/2019, 6 days
   [Search Algorithms](./0x1E-search_algorithms) | 14/01/2020, 4 days
+
+---
 
 ## Author
 ### _Edagr Miguel Rodríguez G._
