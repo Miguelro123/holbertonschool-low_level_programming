@@ -594,4 +594,3 @@ Please, remember that these blogs must be written in English to further your tec
 
 - **Github:** [Miguelro123](https://github.com/Miguelro123) 
 - **Linkedin:** [Edgar Miguel Rodriguez Garcia](https://www.linkedin.com/in/edgar-miguel-rodriguez-garcia-20a5281a2/)
-`
