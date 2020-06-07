@@ -50,6 +50,8 @@ You will be asked to write files containing big O notations. Please use this for
 - n * log(n) -> `O(nlog(n))`
 - …
 
+---
+
 ## Tasks
 
 <details>
@@ -799,6 +801,8 @@ What is the `time complexity` (average case) of a jump search in a skip list of 
 * File: `108-O`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
