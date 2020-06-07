@@ -134,6 +134,8 @@ Please use the “short” notation (don’t use constants). Example: `O(nk)` or
 
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random.org](https://www.random.org/integer-sets/)
 
+---
+
 ## Quiz questions
 
 <details>
@@ -787,6 +789,8 @@ What is the time complexity of worst case deletion from a hash table with the im
 - [ ] O(2^n)
 
 </details>
+
+---
 
 ## Tasks
 
@@ -1863,6 +1867,8 @@ alex@/tmp/sort$
 * File: `1000-sort_deck.c, deck.h`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
