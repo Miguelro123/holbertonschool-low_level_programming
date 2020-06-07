@@ -36,6 +36,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+---
+
 ## Quiz questions
 
 <details>
@@ -215,6 +217,8 @@ What is `98` in base16?
 - [ ] 0x68
 
 </details>
+
+---
 
 ## Tasks
 
@@ -581,9 +585,9 @@ When done, please add all urls below (blog post, LinkedIn post, etc.)
 
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 
-**It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
-
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
