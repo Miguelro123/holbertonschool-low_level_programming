@@ -36,6 +36,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 In the following tasks, we are going to use [these files](https://github.com/holbertonschool/0x1B.c). We want to compile these only.
 
+---
+
 ## Tasks
 
 <details>
@@ -349,6 +351,8 @@ Requirements:
 * File: `100-Makefile`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
