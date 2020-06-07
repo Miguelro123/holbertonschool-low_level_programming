@@ -55,6 +55,8 @@ typedef struct dlistint_s
 } dlistint_t;
 ```
 
+---
+
 ## Quiz questions
 
 <details>
@@ -75,6 +77,8 @@ In a doubly linked list, what’s the “head” of a linked list?
 - [x] It’s the node with the pointer to the previous equals to `NULL`
 
 </details>
+
+---
 
 ## Tasks
 
@@ -740,6 +744,8 @@ julien@ubuntu:~/0x17$
 * File: `103-keygen.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
