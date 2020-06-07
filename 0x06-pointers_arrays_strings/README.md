@@ -19,6 +19,8 @@
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `holberton.h`
 - Don’t forget to push your header file
 
+---
+
 ## Quiz questions
 
 <details>
@@ -116,6 +118,8 @@ What happens when one tries to dereference a pointer to NULL?
 - [ ] World War Z
 
 </details>
+
+---
 
 ## Tasks
 
@@ -815,6 +819,8 @@ julien@ubuntu:~/0x06$
 * File: `103-print_buffer.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
