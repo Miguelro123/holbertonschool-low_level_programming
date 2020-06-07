@@ -40,6 +40,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
+---
+
 ## Quiz questions
 
 <details>
@@ -95,6 +97,8 @@ What does a pointer to a function point to (check all correct answers if there i
 - [x] The first byte of code of the function
 
 </details>
+
+---
 
 ## Tasks
 
@@ -485,6 +489,8 @@ julien@ubuntu:~/0x0e. Function pointers$
 * File: `100-main_opcodes.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
