@@ -52,6 +52,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - All your header files should be include guarded
 - Tip: always prefer using symbolic constants (`POSIX`) vs numbers when it makes sense. For instance `read(STDIN_FILENO, ...` vs `read(0, ...`
 
+---
+
 ## Quiz questions
 
 <details>
@@ -210,6 +212,8 @@ When I am using `O_WRONLY | O_CREAT | O_APPEND` -> the `|` are bitwise operators
 - [ ] False
 
 </details>
+
+---
 
 ## Tasks
 
@@ -613,6 +617,8 @@ julien@ubuntu:~/0x15. File descriptors and permissions$
 * File: `100-elf_header.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
