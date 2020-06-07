@@ -104,6 +104,8 @@ You can now type `betty <filename>` to run the Betty linter!
 
 **It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
 
+---
+
 ## Quiz questions
 
 <details>
@@ -168,6 +170,8 @@ What are the different steps to form an executable file from C source code
 - [ ] Preprocessing and compilation
 
 </details>
+
+---
 
 ## Tasks
 
@@ -503,6 +507,8 @@ julien@ubuntu:~/c/0x00$
 * File: `101-quote.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
