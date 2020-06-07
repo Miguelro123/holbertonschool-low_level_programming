@@ -55,6 +55,8 @@ typedef struct listint_s
 } listint_t;
 ```
 
+---
+
 ## Tasks
 
 <details>
@@ -1180,6 +1182,8 @@ julien@ubuntu:~/0x13. More singly linked lists$
 * File: `103-find_loop.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
