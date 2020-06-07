@@ -46,6 +46,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - A README.md file, at the root of the folder of the project, describing what each script is doing
 - All your files must be executable
 
+---
+
 ## Tasks
 
 <details>
@@ -313,6 +315,8 @@ Tip: `LD_PRELOAD`
 * File: `101-make_me_win.sh`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
