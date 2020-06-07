@@ -59,6 +59,8 @@ typedef struct list_s
 } list_t;
 ```
 
+---
+
 ## Quiz questions
 
 <details>
@@ -114,6 +116,8 @@ Arrays Vs Linked Lists: select all true statements
 - [x] Memory is aligned for an Array - each elements are back to back in the memory
 
 </details>
+
+---
 
 ## Tasks
 
@@ -548,6 +552,8 @@ julien@ubuntu:~/$
 * File: `101-hello_holberton.asm`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
