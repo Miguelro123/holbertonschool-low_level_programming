@@ -42,6 +42,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - **You are not allowed to use any kind of loops**
 - You are not allowed to use `static` variables
 
+---
+
 ## Quiz questions
 
 <details>
@@ -179,6 +181,8 @@ int main(void)
 - [ ] 01234568
 
 </details>
+
+---
 
 ## Tasks
 
@@ -610,6 +614,8 @@ julien@ubuntu:~/0x08. Recursion$
 * File: `100-wildcmp.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
