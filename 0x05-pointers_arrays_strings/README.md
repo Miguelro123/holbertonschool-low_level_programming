@@ -43,6 +43,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, `malloc` and `free` - yet.
 
+---
+
 ## Quiz questions
 
 <details>
@@ -194,6 +196,8 @@ What is the equivalent of typing `arr[2]`?
 - [x] *(arr + 2)
 
 </details>
+
+---
 
 ## Tasks
 
@@ -667,6 +671,8 @@ julien@ubuntu:~/0x05$
 * File: `101-keygen.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
