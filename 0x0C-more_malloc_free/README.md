@@ -40,6 +40,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `holberton.h`
 - Don’t forget to push your header file
 
+---
+
 ## Quiz questions
 
 <details>
@@ -163,6 +165,8 @@ int main(void)
 - [x] Segmentation Fault
 
 </details>
+
+---
 
 ## Tasks
 
@@ -543,6 +547,8 @@ julien@ubuntu:~/0x0b. more malloc, free$
 * File: `101-mul.c`
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
