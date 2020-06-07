@@ -56,9 +56,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 You do not need to learn about dynamic libraries, yet.
 
-## Manual QA Review
-
-**It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
+---
 
 ## Quiz questions
 
@@ -103,6 +101,8 @@ What is the format of a static library?
 - [x] An archive
 
 </details>
+
+---
 
 ## Tasks
 
@@ -298,6 +298,8 @@ When done, please add all urls below (blog post, LinkedIn post, etc.)
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings
 
 </details>
+
+---
 
 ## Author
 ### _Edgar Miguel Rodríguez G._
